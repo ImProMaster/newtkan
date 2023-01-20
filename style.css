@@ -1,0 +1,249 @@
+img,p,h1,h2,h3,h4{
+    margin:0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin:0 10%;
+    size: 13px;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a-one{
+    width:250px;
+    display: flex ;
+    justify-content: space-between;
+}
+.a-one a{
+    text-decoration: none;
+    color:black;
+}
+        /*2 block*/
+.c-one p{
+    color: #666666;
+    size: 13px;
+}
+.c-one{
+    margin-top: 10px;
+}
+.app p{
+    float: right;
+    margin-left:-20px;
+    font-size: 14px;
+}
+.app a{
+    text-decoration: none;
+    color: green;
+}
+.app h3{
+    font-size: 18px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.card input{
+    width: 300px;
+    border-radius: 1px;
+    height: 30px;
+    border: 1px solid rgb(54, 81, 143);
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.search img{
+   margin-left: 8px;
+}
+.container{
+    margin-top:0px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.kabinet{
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+    text-align: center;
+    margin-top: 10px;
+}
+.kabinet p{
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.korzina {
+    display: flex;
+}
+.k-right{
+    margin-left: 10px;
+    text-align: right;
+}
+.k-gray{
+    color: #A2A2A2;
+}
+/*menu*/
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+.menu {
+    max-width: 100%;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.menu a:hover{
+    color: orangered;
+}
+/**/
+
+.fon{
+    background: url(img/фон\ меню.png);
+    background-size: 100% 100%;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+.f-center{
+    margin: 0px auto;
+    max-width: 800px;
+    word-break: break-all;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.f-text {
+    font-size: 1.3rem;
+    color:#343434;
+}
+.f-center span{
+    color: #FF5555;
+}
+.f-button{
+    margin-top: 1rem;
+}
+.f-button button{
+    background-color: #343434;
+    padding: 16px 20px;
+    color: white;
+    font-size: 20px;
+}
+/*Why is why*/
+.about{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px 100px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #a0a0a0 ;
+
+}
+.about p{
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.a-info{
+    width: 350px;
+    margin-top: 10px;
+}
+.a-h3{
+    margin-top: 50px;
+    color: #515151;
+}
+.zakaz{
+    
+    display: flex;
+    margin: 50px 70px;
+    
+    flex-wrap: wrap;
+}
+.z-zakaz{
+    text-align: center;
+    
+}
+.z-zakaz a{
+    text-decoration: none;
+    color: #2B5DE9;
+}
+.z-zakaz p{
+    margin-top: 10px;
+}
+.zakaz h3{
+    margin-bottom: 15px;
+    color: #343434;
+}
+.z-h2{
+    color: #343434;
+}
+
+/*Наши работы*/
+
+.works{
+    width: 100%;
+    background-color: #F0F2F6;
+    padding:auto ;
+    
+}
+.works h2{
+    padding: 70px 0 50px;
+}
+.w-work{
+    text-align: center;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+}
+.w-work img{
+    width: 16%;
+    margin-left: 0.5rem;
+}
+
+/**/
+
+.tkani{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.tkani .div{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   text-align: center;
+}
+.tkani-h2{
+    margin: 100px 0 ;
+}
+.tkani .div img{
+    width: 90%;
+}
